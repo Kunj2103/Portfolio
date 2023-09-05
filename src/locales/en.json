@@ -1,0 +1,113 @@
+{
+  "links": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "personalInfo": {
+    "subHeadingText": [
+      "Software Engineer!",
+      "Full Stack Developer!",
+      "Code enthusiast!",
+      "Web Developer!"
+    ],
+    "firstName": "Kunj",
+    "lastName": "Jansari",
+    "city": "Ahmedabad, India",
+    "phoneNumber": "+91 74900 12103",
+    "email": "kunjjansari1@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/KunjJansari2103/",
+    "github": "https://github.com/Kunj2103/",
+    "myDescription": "Passionate web developer, making useful application using the latest technologies!"
+  },
+  "educationDegrees": {
+    "title": "Education 📕",
+    "degrees": [
+      {
+        "collage": "Vishwakarma Government Engineering College",
+        "name": "B.E. in Computer Engineering",
+        "itemList": ["Computer Engineering"],
+        "startEndDate": "2019 to 2023",
+        "descriptions": [
+          "Coursework: Programming and Software Development(C, JAVA, Python); Computer Networking; Theory Of Computations; DBMS;Software Engineering(Agile and Waterflow methods)"
+        ]
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Work Expecience 🔨",
+    "works": [
+      {
+        "position": "Full Stack Development Intern",
+        "companie": "Bacancy Technology",
+        "responsabilities": [
+          "In this time period learn the technologies in which Ruby On Rails(ROR) and React.",
+          "In the period of ROR training, i worked on project in which i've done email integration according to subscription selected by user with cronjob, Created API for download data of Payment Due for admin side.",
+          "In the period of React training, i used programming skills to build React(javascript based) application with excellent user experience"
+        ],
+        "startEndDate": "January 2023 to September 2023"
+      },
+      {
+        "position": "Full Stack Intern",
+        "companie": "TatvaSoft",
+        "responsabilities": [
+          "Builing a Online Book Selling Platform for Customer and Buyer to Smoothly purchase book online.",
+          "Project is build with help of React for front-end , also using Materialize-CSS for styling, Authentication using JWT and Moreover NodeJs and MongoDB for back-end."
+        ],
+        "startEndDate": "June 2022 to July 2022"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills 🎯",
+    "iconsTitle": "Programming Languages & Tools",
+    "devIcons": [
+      "devicon-javascript-plain",
+      "devicon-html5-plain-wordmark",
+      "devicon-css3-plain-wordmark",
+      "devicon-react-original",
+      "devicon-git-plain",
+      "devicon-nodejs-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-bootstrap-plain",
+      "devicon-github-original",
+      "devicon-jquery-plain-wordmark",
+      "devicon-linux-plain",
+      "devicon-windows8-original",
+      "devicon-visualstudio-plain",
+      "devicon-postgresql-plain"
+    ],
+    "workflow": "Workflow",
+    "itemList": [
+      "Responsive Design & UX",
+      "Cross Browser Testing & Debugging",
+      "REST API building"
+    ]
+  },
+  "projects": {
+    "title": "Personal Projects 🦾🧠",
+    "projectsInfo": [
+      {
+        "name": "StreamFlix",
+        "description": "StreamFlix is a React Project similar to NetFlix Which through massive recollections of Movies/Series with different categories of them and also YouTube integration to watch the trailer of the particular series/movie",
+        "image": "/streamflix.png",
+        "siteUrl": "https://netflix-clone-791ed.web.app/"
+      },
+      {
+        "name": "Project Sphere",
+        "description": "Project Sphere is a robust web application (build on the top of Ruby On Rails) designed to streamline project management processes and enhance collaboration within teams. It provides a comprehensive set of features to efficiently plan , organize projects, ensuring successful project delivery.",
+        "image": "/pms.png",
+        "siteUrl": "https://github.com/riddhibacancy/PMS-Group1-2023/tree/development"
+      },
+      {
+        "name": "Resume React Template",
+        "description": "In this project, I made a simple and customizable template with multilanguage support (i18n)",
+        "image": "/resume.png",
+        "siteUrl": "https://github.com/Kunj2103/Portfolio"
+      }
+    ]
+  }
+}
