@@ -1,0 +1,113 @@
+{
+  "links": {
+    "about": "Acerca de",
+    "education": "Educación",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "projects": "Proyectos"
+  },
+  "personalInfo": {
+    "subHeadingText": [
+      "Ingeniero de Software!",
+      "Desarrollador Full Stack!",
+      "Entusiasta de la programación!",
+      "Desarrollador Web!"
+    ],
+    "firstName": "Kunj",
+    "lastName": "Jansari",
+    "city": "Ahmedabad, India",
+    "phoneNumber": "+91 74900 12103",
+    "email": "kunjjansari1@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/KunjJansari2103/",
+    "github": "https://github.com/Kunj2103/",
+    "myDescription": "Apasionado desarrollador web, creando aplicaciones útiles utilizando las últimas tecnologías!"
+  },
+  "educationDegrees": {
+    "title": "Educación 📕",
+    "degrees": [
+      {
+        "collage": "Colegio de Ingeniería del Gobierno Vishwakarma",
+        "name": "B.E. en Ingeniería Informática",
+        "itemList": ["Ingeniería Informática"],
+        "startEndDate": "2019 a 2023",
+        "descriptions": [
+          "Cursos: Programación y Desarrollo de Software (C, JAVA, Python); Redes de Computadoras; Teoría de la Computación; Bases de Datos; Ingeniería de Software (métodos Agile y Waterflow)"
+        ]
+      }
+    ]
+  },
+  "workExperiences": {
+    "title": "Experiencia Laboral 🔨",
+    "works": [
+      {
+        "position": "Becario de Desarrollo Full Stack",
+        "companie": "Tecnología Bacancy",
+        "responsabilities": [
+          "En este período de tiempo, aprendí las tecnologías Ruby On Rails (ROR) y React.",
+          "Durante el entrenamiento de ROR, trabajé en un proyecto en el que integré correos electrónicos según la suscripción seleccionada por el usuario con cronjob, creé una API para descargar datos de Pagos Pendientes para el lado del administrador.",
+          "Durante el entrenamiento de React, utilicé habilidades de programación para construir una aplicación React (basada en JavaScript) con una excelente experiencia de usuario."
+        ],
+        "startEndDate": "Enero de 2023 a Septiembre de 2023"
+      },
+      {
+        "position": "Becario Full Stack",
+        "companie": "TatvaSoft",
+        "responsabilities": [
+          "Construcción de una plataforma de venta de libros en línea para clientes y compradores para comprar libros fácilmente en línea.",
+          "El proyecto se construyó con la ayuda de React para el front-end, también se utilizó Materialize-CSS para el estilo, autenticación utilizando JWT y además NodeJs y MongoDB para el back-end."
+        ],
+        "startEndDate": "Junio de 2022 a Julio de 2022"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades 🎯",
+    "iconsTitle": "Lenguajes de Programación y Herramientas",
+    "devIcons": [
+      "devicon-javascript-plain",
+      "devicon-html5-plain-wordmark",
+      "devicon-css3-plain-wordmark",
+      "devicon-react-original",
+      "devicon-git-plain",
+      "devicon-nodejs-plain",
+      "devicon-ruby-plain",
+      "devicon-rails-plain",
+      "devicon-bootstrap-plain",
+      "devicon-github-original",
+      "devicon-jquery-plain-wordmark",
+      "devicon-linux-plain",
+      "devicon-windows8-original",
+      "devicon-visualstudio-plain",
+      "devicon-postgresql-plain"
+    ],
+    "workflow": "Flujo de trabajo",
+    "itemList": [
+      "Diseño Responsivo y Experiencia de Usuario",
+      "Pruebas y Depuración en Navegadores Cruzados",
+      "Construcción de API REST"
+    ]
+  },
+  "projects": {
+    "title": "Proyectos Personales 🦾🧠",
+    "projectsInfo": [
+      {
+        "name": "StreamFlix",
+        "description": "StreamFlix es un proyecto React similar a NetFlix que ofrece una amplia selección de películas/series con diferentes categorías, además de integración de YouTube para ver el tráiler de una película/serie en particular.",
+        "image": "/streamflix.png",
+        "siteUrl": "https://netflix-clone-791ed.web.app/"
+      },
+      {
+        "name": "Proyecto Sphere",
+        "description": "Proyecto Sphere es una sólida aplicación web (construida sobre Ruby On Rails) diseñada para agilizar los procesos de gestión de proyectos y mejorar la colaboración dentro de los equipos. Ofrece un conjunto completo de funciones para planificar y organizar proyectos de manera eficiente, garantizando una entrega exitosa de los proyectos.",
+        "image": "/pms.png",
+        "siteUrl": "https://github.com/riddhibacancy/PMS-Group1-2023/tree/development"
+      },
+      {
+        "name": "Plantilla de Currículum en React",
+        "description": "En este proyecto, creé una plantilla simple y personalizable con soporte multilingüe (i18n).",
+        "image": "/resume.png",
+        "siteUrl": "https://github.com/Kunj2103/Portfolio"
+      }
+    ]
+  }
+}
