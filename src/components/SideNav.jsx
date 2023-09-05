@@ -1,91 +1,74 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
+import { Navbar, Nav } from "react-bootstrap";
+
 const SideNav = () => {
   const { t } = useTranslation();
+
   return (
-    <>
-      <nav
-        className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
-        id="sideNav"
-      >
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          <span className="d-block d-lg-none">Kunj Jansari</span>
-          <span className="d-none d-lg-block">
-            <img
-              className="img-fluid img-profile rounded-circle mx-auto mb-2"
-              src="/profile.jpg"
-              alt=""
-            />
-          </span>
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link
-                className="nav-link js-scroll-trigger"
-                to="about"
-                smooth={true}
-                duration={500}
-              >
-                {t("links.about")}
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link js-scroll-trigger"
-                to="education"
-                smooth={true}
-                duration={500}
-              >
-                {t("links.education")}
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link js-scroll-trigger"
-                to="experience"
-                smooth={true}
-                duration={500}
-              >
-                {t("links.experience")}
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link js-scroll-trigger"
-                to="skills"
-                smooth={true}
-                duration={500}
-              >
-                {t("links.skills")}
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                className="nav-link js-scroll-trigger"
-                to="projects"
-                smooth={true}
-                duration={500}
-              >
-                {t("links.projects")}
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </>
+    <Navbar bg="primary" expand="lg" fixed="top" id="sideNav">
+      <Navbar.Brand href="#page-top">
+        <span className="d-block d-lg-none">Kunj Jansari</span>
+        <span className="d-none d-lg-block">
+          <img
+            className="img-fluid img-profile rounded-circle mx-auto mb-2"
+            src="/profile.jpg"
+            alt=""
+          />
+        </span>
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbarSupportedContent" />
+      <Navbar.Collapse id="navbarSupportedContent">
+        <Nav className="mr-auto" style={{ cursor: "pointer" }}>
+          <Nav.Link
+            as={Link}
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            {t("links.about")}
+          </Nav.Link>
+          <Nav.Link
+            as={Link}
+            to="education"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            {t("links.education")}
+          </Nav.Link>
+          <Nav.Link
+            as={Link}
+            to="experience"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            {t("links.experience")}
+          </Nav.Link>
+          <Nav.Link
+            as={Link}
+            to="skills"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            {t("links.skills")}
+          </Nav.Link>
+          <Nav.Link
+            as={Link}
+            to="projects"
+            spy={true}
+            smooth={true}
+            duration={500}
+          >
+            {t("links.projects")}
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
