@@ -211,3 +211,17 @@ body {
 a {
   color: var(--color-primary)
 }
+nav img{
+  object-fit: cover;
+}
+nav  *{
+  color: var(--bg-secondary);
+}
+
+#navbarSupportedContent a{
+  color: var(--bg);
+}
+
+.navbar-toggler:focus{
+  box-shadow: 0 0 0 0;
+}

@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 import { Navbar, Nav } from "react-bootstrap";
 
 const SideNav = () => {
   const { t } = useTranslation();
+  const [expanded, setExpanded] = useState(false);
 
   return (
-    <Navbar bg="primary" expand="lg" fixed="top" id="sideNav">
+    <Navbar
+      bg="primary"
+      expand="lg"
+      fixed="top"
+      id="sideNav"
+      expanded={expanded}
+      className="p-3 p-lg-5"
+    >
       <Navbar.Brand href="#page-top">
         <span className="d-block d-lg-none">Kunj Jansari</span>
         <span className="d-none d-lg-block">
@@ -18,7 +26,10 @@ const SideNav = () => {
           />
         </span>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="navbarSupportedContent" />
+      <Navbar.Toggle
+        aria-controls="navbarSupportedContent"
+        onClick={() => setExpanded(!expanded)}
+      />
       <Navbar.Collapse id="navbarSupportedContent">
         <Nav className="mr-auto" style={{ cursor: "pointer" }}>
           <Nav.Link
@@ -27,6 +38,7 @@ const SideNav = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={() => setExpanded(false)}
           >
             {t("links.about")}
           </Nav.Link>
@@ -36,6 +48,7 @@ const SideNav = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={() => setExpanded(false)}
           >
             {t("links.education")}
           </Nav.Link>
@@ -45,6 +58,7 @@ const SideNav = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={() => setExpanded(false)}
           >
             {t("links.experience")}
           </Nav.Link>
@@ -54,6 +68,7 @@ const SideNav = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={() => setExpanded(false)}
           >
             {t("links.skills")}
           </Nav.Link>
@@ -63,6 +78,7 @@ const SideNav = () => {
             spy={true}
             smooth={true}
             duration={500}
+            onClick={() => setExpanded(false)}
           >
             {t("links.projects")}
           </Nav.Link>
