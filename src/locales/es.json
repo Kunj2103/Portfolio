@@ -91,16 +91,10 @@
     "title": "Proyectos Personales 🦾🧠",
     "projectsInfo": [
       {
-        "name": "StreamFlix",
-        "description": "StreamFlix es un proyecto React similar a NetFlix que ofrece una amplia selección de películas/series con diferentes categorías, además de integración de YouTube para ver el tráiler de una película/serie en particular.",
-        "image": "/streamflix.png",
-        "siteUrl": "https://netflix-clone-791ed.web.app/"
-      },
-      {
         "name": "Proyecto Sphere",
         "description": "Proyecto Sphere es una sólida aplicación web (construida sobre Ruby On Rails) diseñada para agilizar los procesos de gestión de proyectos y mejorar la colaboración dentro de los equipos. Ofrece un conjunto completo de funciones para planificar y organizar proyectos de manera eficiente, garantizando una entrega exitosa de los proyectos.",
         "image": "/pms.png",
-        "siteUrl": "https://github.com/riddhibacancy/PMS-Group1-2023/tree/development"
+        "siteUrl": ""
       },
       {
         "name": "Plantilla de Currículum en React",

@@ -101,21 +101,6 @@
     "title": "Personal Projects 🦾🧠",
     "projectsInfo": [
       {
-        "name": "GAN TV",
-        "description": "Contributed to the development of GAN TV, a comprehensive streaming platform offering a diverse range of shows and on-demand content. Key responsibilities included ensuring seamless and uninterrupted live streaming content delivery, optimizing video performance, and enhancing user experience. Collaborated cross-functional teams to implement best practices in video streaming technologies, resulting in improved accessibility and engagement for users worldwide.",
-        "siteUrl": "https://watch.gantv.com"
-      },
-      {
-        "name": "MoveTube",
-        "description": "MoveTube is a real estate application that is currently live on Roku, Amazon Fire TV, Apple TV, and Google TV. It is also pending release on Samsung and LG platforms. Integrated iHeart API , a music, podcast and radio streaming platform in the USA, for this project. Additionally, I integrated Google Maps API to enhance location-based features.",
-        "siteUrl": ""
-      },
-      {
-        "name": "ComedyBox",
-        "description": "Contributed to the development of comedic content for ComedyBox On Samsung and LG platforms, a leading Romanian platform dedicated to delivering laughter-inducing entertainment. Key responsibilities included ensuring seamless, uninterrupted video playback and optimizing video performance to enhance the user experience. Resulted in increased viewership and engagement with the platform. Ensuring high-quality and diverse content offerings, fostering a vibrant online community of comedy enthusiasts.",
-        "siteUrl": ""
-      },
-      {
         "name": "Project Sphere",
         "description": "Project Sphere is a robust web application (build on the top of Ruby On Rails) designed to streamline project management processes and enhance collaboration within teams. It provides a comprehensive set of features to efficiently plan , organize projects, ensuring successful project delivery.",
         "siteUrl": ""
